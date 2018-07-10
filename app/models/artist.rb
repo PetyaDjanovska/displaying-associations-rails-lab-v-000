@@ -17,6 +17,6 @@ private
   end
 
   def make_title_case
-    self.name = self.title.titlecase
+    self.name = self.name.titlecase
   end
 end
