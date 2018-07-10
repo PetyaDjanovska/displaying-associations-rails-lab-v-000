@@ -4,8 +4,6 @@ class Artist < ActiveRecord::Base
 
   before_validation :make_title_case
 
-
-
   def song_count
     self.songs.count
   end
